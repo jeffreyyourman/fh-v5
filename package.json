@@ -47,6 +47,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "apollo-server-lambda": "^3.12.0",
     "prettier": "^2.0.5"
   },
   "engines": {
