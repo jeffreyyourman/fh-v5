@@ -16,11 +16,13 @@
 // //    .then(console.log)
 // // For more info see: https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/#static-dynamic-is-a-spectrum
 
-import useSiteMetadata from "../../src/components/SiteMetadata";
+// import useSiteMetadata from "../../src/components/SiteMetadata";
 
 export async function handler(event, context) {
-  const { title, description } = useSiteMetadata();
-  console.log("title, description", title, description);
+  console.log('event', event);
+  console.log('context', context);
+  // const { title, description } = useSiteMetadata();
+  // console.log("title, description", title, description);
   // const result = await graphql(`
   //   {
   //     allMarkdownRemark(limit: 1000) {

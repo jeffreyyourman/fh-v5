@@ -1,0 +1,7 @@
+query ExampleQuery @netlify(id: """32fb017b-07b7-4639-aaf9-8fdbf40c37a1""", doc: """An empty query to start from""") {
+  __typename
+}
+
+query ExampleQuery @netlify(id: """e1883375-09d0-4b03-a46d-8c8ef25ff626""", doc: """An empty query to start from""") {
+  __typename
+}
